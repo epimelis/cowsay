@@ -1,0 +1,8 @@
+docker build -t epimelis1/cowsay .
+docker push epimelis1/cowsay
+docker rmi <<cowsay image>>
+docker pull epimelis1/cowsay
+
+docker run ---rm epimelis1/cowsay
+docker run ---rm epimelis1/cowsay "Hello Andrew"
+
